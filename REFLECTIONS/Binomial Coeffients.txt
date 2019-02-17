@@ -1,0 +1,14 @@
+Dated:12-FEB-2018
+The triangular array of binomial coefficients lead to Pascal triangle.
+Methods to calculate the binomial coefficients (nCr) are:-
+1->2d matrix using Dynamic Programming.
+   +This method makes a lookup table.
+   +Can get intermediate values instead of re-calculating the values.
+   +Space complexity->(N*K).
+2->Recursion 
+   +This methos same memory as of the dynamic programming.
+   +Takes same time as of the above,but takes more time for larger value of n and r.
+   +Space Compexity->(2^(n-1)).
+3->1D array  
+   +This method used when we require value of only particular binomail coeeficient.
+   +Space complexity of (k+1).
