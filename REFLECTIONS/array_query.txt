@@ -1,0 +1,24 @@
+Look up table for array query:->
+>Look up table is used for storing the calculated values in tables and retrived again instead of calculating again. 
+>The memory required is n*n of memory of datatypes. 
+>Time taken is n*n.
+
+Square root decomposition for array query problem:->
+>The time taken is n.
+>Used when array elements are increasing or changing.
+>The memory used is square root of n.Less compared to look up table.
+>Accessing time is square root of n.
+
+Kadane algorithm(maximum sub-array sum):->
+>Time complexity is O(n),as there is one for loop.
+>Space complexity is O(1) as it uses constant space.
+
+Segment tree:->
+>It is used if n is  large value and the values are static.
+>There are total (2*n-1) nodes.
+>Time complexity:
+-->for query is O(logn).
+-->for tree construction is O(n).
+-->for updating an element is O(logn).
+
+
